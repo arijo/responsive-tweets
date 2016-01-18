@@ -10,7 +10,7 @@ node index.js
 
 Go to <a href="http://localhost:30000/cnnbrk-tweets">http://localhost:30000/cnnbrk-tweets</a>
 
-It is possible to get the latest 10 tweets from a given timeline by changin the request url path:
+It is possible to get the latest 10 tweets from a given timeline by changing the request url path:
 
 <a href="http://localhost:30000/arijo-tweets">http://localhost:30000/arijo-tweets</a>
 
