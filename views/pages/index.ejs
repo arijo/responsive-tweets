@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body>
+    <div id="tweets"></div>
+    <script type="text/javascript">
+      var tweets = <%- JSON.stringify(tweets); %>;
+    </script>
+    <!-- precompiled templates -->
+    <script type="text/javascript" src="/scripts/dust-core.js"></script>
+    <script type="text/javascript" src="/scripts/templates.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>

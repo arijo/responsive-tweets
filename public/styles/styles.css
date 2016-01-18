@@ -1,0 +1,17 @@
+.tweet {
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  .left, .right {
+    display: block;
+    width: auto;
+  }
+}
+
+@media (min-width: 600px ) {
+  .left, .right {
+    display: inline-block;
+    width: 45%;
+  }
+}
